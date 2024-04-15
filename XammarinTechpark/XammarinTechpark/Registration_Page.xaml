@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XammarinTechpark.Registration_Page"
+             Title="Технопарк.Регистрация">
+    <ContentPage.Content>
+        <StackLayout Margin="0, 10, 0, 0" Padding="10">
+            <Label Text="Эл.Почта" FontSize="12"></Label>
+            <Entry x:Name="email_entry" Placeholder="Введите электронную почту" FontSize="24"></Entry>
+            <Label Text="Логин" FontSize="12"></Label>
+            <Entry x:Name="registartion_form_login_entry" Placeholder="Придумайте логин" FontSize="24"></Entry>
+            <Label Text="Пароль" FontSize="12"></Label>
+            <Entry x:Name="registration_form_password_entry" Placeholder="Придумайте пароль" FontSize="24" IsPassword="True"></Entry>
+            <Frame HasShadow="True" Margin="0, 10, 0, 0" Padding="0, 10, 0, 0" CornerRadius="10"></Frame>
+            <StackLayout Margin="25">
+                <Button Margin="0, 75, 0, 0" Text="Регистрация" x:Name="registerButton" Clicked="registerButton_Clicked" HeightRequest="75"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

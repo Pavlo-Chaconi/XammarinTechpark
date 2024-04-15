@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XammarinTechpark.Login_Page"
+             Title="Технопарк.Вход">
+    <StackLayout Margin="0, 10, 0, 0" Padding="10">
+        <Label Text="Логин" FontSize="12"></Label>
+        <Entry x:Name="login_entry" Placeholder="Введите логин" FontSize="24"></Entry>
+        <Label Text="Пароль" FontSize="12"></Label>
+        <Entry x:Name="pass_entry" IsPassword="True" Placeholder="Введите пароль" FontSize="24"></Entry>
+        <StackLayout Margin="10">
+            <Frame HasShadow="True" Margin="0, 10, 0, 0" Padding="0, 10, 0, 0" CornerRadius="10"></Frame>
+            <Button Text="Войти" Margin="0, 150, 0, 0" x:Name="Login_Button_Page" Clicked="Login_Button_Page_Clicked" HeightRequest="75" ></Button>
+            <Button Text="Регистрация" Clicked="Registration_Button_Clicked" Margin="0, 10, 0, 0" HeightRequest="75"></Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XammarinTechpark.Schedule_Page">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="nameLabel" Text="Наименование: "></Label>            
+            <Label x:Name="dateLabel" Text="Дата: "/>
+            <Label x:Name="classroomLabel" Text="Площадка: "></Label>
+            <Label x:Name="LastNameLabel" Text="Организация: "></Label>
+            <StackLayout Margin="15">
+                <Button x:Name ="action_button" Text="Записаться" Clicked="action_button_Clicked"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

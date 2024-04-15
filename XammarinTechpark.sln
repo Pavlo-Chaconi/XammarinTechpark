@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XammarinTechpark.Android", "XammarinTechpark\XammarinTechpark.Android\XammarinTechpark.Android.csproj", "{C7E314A1-219A-481A-B0A8-960038B77175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XammarinTechpark", "XammarinTechpark\XammarinTechpark\XammarinTechpark.csproj", "{EE82C0BB-EDD0-4BFC-8CDD-FD02992C64EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7E314A1-219A-481A-B0A8-960038B77175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E314A1-219A-481A-B0A8-960038B77175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E314A1-219A-481A-B0A8-960038B77175}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C7E314A1-219A-481A-B0A8-960038B77175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E314A1-219A-481A-B0A8-960038B77175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E314A1-219A-481A-B0A8-960038B77175}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EE82C0BB-EDD0-4BFC-8CDD-FD02992C64EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE82C0BB-EDD0-4BFC-8CDD-FD02992C64EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE82C0BB-EDD0-4BFC-8CDD-FD02992C64EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE82C0BB-EDD0-4BFC-8CDD-FD02992C64EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BAE2BC7-B52C-45C1-955C-3B85E6696664}
+	EndGlobalSection
+EndGlobal
